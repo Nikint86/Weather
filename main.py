@@ -14,6 +14,5 @@ def weather(city):
     return response.text
 if __name__ == '__main__':
     adress_local = ['svo','Париж','Череповец']
-
-for city in adress_local:
-    print(weather(city))
+    for city in adress_local:
+        print(weather(city))
